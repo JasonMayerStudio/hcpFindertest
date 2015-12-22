@@ -1,0 +1,47 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+ul {
+	clear:both;
+	padding: 0;
+	border: 0;
+}
+ul li {
+	float: left;
+	padding: 5px;
+    list-style-type: none;
+}
+div.paginator {
+    clear: left;
+}
+ul.pagination li.active {
+	font-weight: bold;
+}
+navigation {
+	float: left;
+}
+h1 {
+	clear: left;
+}
+table 
+{
+	clear: left;
+}
+a, a:visited {
+	text-decoration: none;
+	color : red;
+}
+a:hover {
+	text-decoration: underline;
+}
+table.hcp_list td {
+	border:solid 1px gray; 
+	padding: 2px;
+}
+.title {
+    font-weight: bold;
+}
+#map-canvas
+{
+	width: 400px;
+	height: 300px;
+}
